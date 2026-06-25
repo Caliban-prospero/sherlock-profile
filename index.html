@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherlock Holmes - Early Profile</title>
+    <style>
+        
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --accent-color: #5d4037; /* A darker, Victorian-style brown instead of blue */
+            --border-color: #e0e0e0;
+            --code-bg: #f4f4f4;
+            --header-font: 'Georgia', serif; /* Serif fonts fit the era better */
+            --body-font: system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            font-family: var(--body-font);
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        h1 {
+            font-family: var(--header-font);
+            color: #1a1a1a;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            font-family: var(--header-font);
+            font-style: italic;
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        /* Profile Image Styling */
+        .profile-image-container {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .profile-image {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 1px solid var(--border-color);
+        }
+
+        .caption {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        h2 {
+            font-family: var(--header-font);
+            color: #1a1a1a;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.3rem;
+            margin-top: 2rem;
+        }
+
+        p { margin-bottom: 1.5rem; }
+
+        ul { 
+            margin-bottom: 1.5rem; 
+            padding-left: 1.5rem; 
+            list-style-type: circle; /* Classic bullet style */
+        }
+
+        li { margin-bottom: 0.5rem; }
+
+        .map-section {
+            background-color: #fafafa;
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover { text-decoration: underline; }
+
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #888;
+            border-top: 1px solid var(--border-color);
+            padding-top: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 1rem; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Sherlock Holmes</h1>
+            <div class="subtitle">As observed by Dr. John H. Watson in 1881</div>
+        </header>
+
+      
+        <div class="profile-image-container">
+            <img src="Sherlock.jpg" class="profile-image">
+            <p class="caption">An early illustration of Holmes by artist Sidney Paget</p>
+        </div>
+
+        <section>
+            <h2>The Detective in His Own Words</h2>
+            <p>
+                When Dr. Watson first met Mr. Holmes at St. Bart's Hospital, he was unaware of the man's true profession. 
+                Based on their observations of Holmes's habits and knowledge, Watson compiled the following list of activities 
+                and interests before Holmes revealed to him his profession as a consulting detective:
+            </p>
+            
+            <ul>
+                <li><strong>Literature:</strong> Knowledge appears nil.</li>
+                <li><strong>Philosophy:</strong> Knowledge appears nil.</li>
+                <li><strong>Astronomy:</strong> Knowledge appears nil.</li>
+                <li><strong>Politics:</strong> Knowledge appears feeble.</li>
+                <li><strong>Botany:</strong> Variable. Profound in knowledge of belladonna, opium, and poisons generally; knows nothing of practical gardening.</li>
+                <li><strong>Geology:</strong> Practical but limited. Can distinguish different soils at a glance. After walks, shows splashes upon his trousers, which can tell him their position in London.</li>
+                <li><strong>Chemistry:</strong> Profound.</li>
+                <li><strong>Anatomy:</strong> Accurate, but unsystematic.</li>
+                <li><strong>Sensational Literature:</strong> Immense. He seems to know all details of every horror perpetrated in the century.</li>
+                <li><strong>Violin-playing:</strong> Skilled player. Plays strange, sentimental pieces, or occasionally rapid compositions of his own.</li>
+                <li><strong>Gymnastics:</strong> Excellent stick-man, boxer, and swordsman.</li>
+                <li><strong>Documents:</strong> Great knowledge of British law.</li>
+            </ul>
+            
+            <p>
+                <em>(Source: Arthur Conan Doyle, "A Study in Scarlet", Chapter 2)</em>
+            </p>
+        </section>
+
+        <section class="map-section">
+            <h2>Residence: 221B Baker Street</h2>
+            <p>
+                During the Victorian era, Holmes resided at the famous address above. 
+                While the street numbers have changed over time, historical maps allow us to locate the original area.
+            </p>
+            <p>
+                See the location marked by a red map pin on Booth's map of 1890s London, uploaded by London School of Economics:
+                <br><br>
+                <a href="https://booth.lse.ac.uk/map/records/booth-b-358-p-103"
+                 target="_blank">View the location &rarr;</a>
+            </p>
+            
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Educational Project. Content derived from public domain works by Arthur Conan Doyle.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
